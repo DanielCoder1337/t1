@@ -1,0 +1,24 @@
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.cardStyle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+html {
+    height: 100%
+}
+
+#outer {
+    color:whitesmoke;
+    width: 100%;
+    height: 100vh;
+}
+  
+#inner {
+    margin: auto;
+}
